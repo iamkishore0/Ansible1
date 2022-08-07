@@ -1,1 +1,4 @@
-.
+Setp1: Fill the required field in playbook.yml
+
+Step2: Run playbook
+  "ansible-playbook playbook.yml
