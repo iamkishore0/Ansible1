@@ -1,0 +1,20 @@
+---
+ - name: Provision instances in AWS
+   hosts: localhost
+   connection: local
+   gather_facts: False
+   tasks:
+    - name : <ec2_instance_name>
+      ec2:
+        access_key: <IAM_Access_key>
+        secret_key: <IAM_Secret_key>
+        key_name: <Key_name>
+        instance_type: <Instance_type>
+        instance_ids: <Existing_instance_id>
+        image: <Image_ID>
+        group: <Security_group_name>
+        wait: yes
+        count: 1
+        vpc_subnet_id: <Subnet_id>
+        region: <AWS_region>
+        assign_public_ip: yes
