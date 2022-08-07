@@ -1,1 +1,7 @@
-.
+For Centos/RHEL linux, first give execution permission to centos_rhel_script.sh "chmod +x centos_rhel_script.sh" 
+      and execute script file ./centos_rhel_script.sh   
+For Debain/Ubuntu linux, first give execution permissions to Debian_ubuntu_script.sh "chmod +x Debian_ubuntu_script.sh"
+      and execute script file ./Debian_ubuntu_script.sh
+      
+Check Ansible version
+ "ansible --version"
