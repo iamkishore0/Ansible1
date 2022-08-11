@@ -9,3 +9,4 @@ Edit hosts file "vi /etc/ansible/hosts" and add hosts I.P addresses
 
 Now ping ansible hosts
 "ansible hosts -m ping all"
+
