@@ -3,6 +3,6 @@
   become: true
   tasks: 
   - name: install latest version of java
-  yum:
-    name: java
-    state: latest
+    yum:
+      name: java
+      state: latest
