@@ -3,6 +3,6 @@
   become: true
   tasks: 
   - name: remove java package 
-  yum:
-    name: java
-    state: absent
+    yum:
+      name: java
+      state: absent
