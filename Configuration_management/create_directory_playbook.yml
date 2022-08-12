@@ -1,0 +1,9 @@
+---
+- hosts: <host name>
+  become: true
+  tasks: 
+ - name: Create a directory if it does not exist
+   ansible.builtin.file:
+     path: <folder name>
+     state: directory
+     mode: '+x'
