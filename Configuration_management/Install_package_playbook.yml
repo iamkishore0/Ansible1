@@ -1,0 +1,8 @@
+---
+- hosts: <host name>
+  become: true
+  tasks: 
+  - name: install latest version of java
+  yum:
+    name: java
+    state: latest
