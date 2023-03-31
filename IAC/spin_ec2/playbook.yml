@@ -4,7 +4,7 @@
    connection: local
    gather_facts: False
    tasks:
-    - name : <ec2_instance_name>
+    - name : Create EC2 instance
       ec2:
         access_key: <IAM_Access_key>
         secret_key: <IAM_Secret_key>
