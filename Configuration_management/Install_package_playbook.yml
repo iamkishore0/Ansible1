@@ -1,5 +1,5 @@
 ---
-- hosts: <host name>
+- hosts: <host private ip>
   become: true
   tasks: 
   - name: install latest version of java
